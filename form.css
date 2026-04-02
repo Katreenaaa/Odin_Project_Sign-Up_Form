@@ -26,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../assets/images/halie-west-25xggax4bSA-unsplash.jpg");
+  background-image: url("../Odin_Project_Sign-Up_Form/assets/images/halie-west-25xggax4bSA-unsplash.jpg");
   background-size: cover;
 }
 .logo {
