@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "OdinCustomFont";
+  src: url("./assets/fonts/Norsebold.otf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+.container {
+  display: grid;
+  background-color: ghostwhite;
+  grid-template-columns: 1fr 2fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../Form/assets/images/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.5rem 0;
+  margin-top: 8rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 5rem;
+  font-family: "OdinCustomFont", sans-serif;
+}
+
+img {
+  width: 80px;
+  height: auto;
+  margin-top: 2rem auto;
+}
+
+p {
+  margin-left: 2rem;
+  color: #333;
+}
+
+h3 {
+  color: #333;
+}
+
+form {
+  background-color: white;
+  padding: 2rem;
+  margin: 0rem auto;
+  box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.123);
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  padding: 1rem 0;
+  margin: 0.5rem auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+.form-control input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="password"] {
+  border: 1px solid red;
+}
+
+input::invalid {
+  border-color: red;
+}
+
+input:focus {
+  outline: none;
+  border-color: blue;
+  box-shadow: 0 0 3px rgba(0, 0, 255, 0.3);
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  border-radius: 5px;
+  border: transparent;
+  padding: 0.6rem 1.1rem 0.6rem 1.1rem;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.123);
+  margin: 2rem 2rem 0rem 2rem;
+}
+
+a {
+  color: #596d48;
+}
